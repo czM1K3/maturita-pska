@@ -103,7 +103,44 @@ title: '05-XX - Sítě'
 	- Data
 - IPv6
 	- 128bit
+	- Prefix je maska
+	- Link local adresa
+		- Generuje operační systém
+	- Hlavička
 - Maska podsítě
 - ICMP
 	- Ping
-	-  Tracert
+	- Tracert
+- Nat
+- Router
+
+# Transportní
+- TCP
+	- Spolehlivý
+	- Checksum
+	- Three way handshake
+		- Klient žádá o spojení
+		- Server potvrdí spojení
+		- Klient potvrdí přijetí
+- UDP
+	- Není zaručena integrita
+- Druhy portů
+	- Well know ports 0-1023
+	- Registrované porty 1024-49151
+	- Dynamické porty 49152-65535
+
+ # Relační
+ - Udržuje relace
+ - Synchronizace
+ - Získání všech dat
+
+ # Prezentační
+ - Rozbalení dat (dekomprese, ...)
+ 
+ # Aplikační vrstva
+ - DHCP
+ - DNS
+ - HTTP
+ - HTTPS
+ - SSH
+ - FTP
